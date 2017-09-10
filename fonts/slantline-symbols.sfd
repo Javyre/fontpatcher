@@ -1,30 +1,37 @@
 SplineFontDB: 3.0
-FontName: PowerlineSymbols
-FullName: PowerlineSymbols
-FamilyName: PowerlineSymbols
+FontName: SlantlineSymbols
+FullName: SlantlineSymbols
+FamilyName: SlantlineSymbols
 Weight: Medium
 Copyright: Created with FontForge 2.0 (http://fontforge.sf.net)
-UComments: "2012-12-17: Created." 
+UComments: "2012-12-17: Created."
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 1638
 Descent: 410
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 211 26716215 11183012]
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1355758773
-ModificationTime: 1355865048
+ModificationTime: 1505085339
+PfmFamily: 17
+TTFWeight: 500
+TTFWidth: 5
+LineGap: 184
+VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 184
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -36,6 +43,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
+LangName: 1033
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -43,10 +51,16 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 31 16
+WinInfo: 0 18 5
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65536 8
+Grid
+-2048 2068 m 0
+ 4096 2068 l 1024
+  Named: "top"
+EndSplineSet
+TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+BeginChars: 65536 12
 
 StartChar: uniE0A0
 Encoding: 57504 57504 0
@@ -229,6 +243,64 @@ SplineSet
  1060 -375 l 1
  0 -375 l 1
  0 1950 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniE0B4
+Encoding: 57524 57524 8
+Width: 1060
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 1950 m 5
+ 1060 1950 l 5
+ 0 -375 l 1
+ 0 1950 l 5
+EndSplineSet
+EndChar
+
+StartChar: uniE0B5
+Encoding: 57525 57525 9
+Width: 1060
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1117.68652344 -251.9765625 m 5
+ 46.953125 1896.18066406 l 1
+ -69.595703125 1827.93554688 l 1
+ 997.719726562 -314.017578125 l 1
+ 1117.68652344 -251.9765625 l 5
+EndSplineSet
+EndChar
+
+StartChar: uniE0B6
+Encoding: 57526 57526 10
+Width: 1060
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1060 -375 m 1
+ 0 1950 l 1
+ 1060 1950 l 1
+ 1060 -375 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniE0B7
+Encoding: 57527 57527 11
+Width: 1060
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+57.2802734375 -312.017578125 m 1
+ 1124.59570312 1829.93554688 l 1
+ 1008.046875 1898.18066406 l 1
+ -62.6865234375 -249.9765625 l 1
+ 57.2802734375 -312.017578125 l 1
 EndSplineSet
 EndChar
 EndChars
